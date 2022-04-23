@@ -1,0 +1,29 @@
+{
+  "name": "daily-grind",
+  "version": "1.0.0",
+  "description": "coffee shop locator",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaestroLuu/Daily-Grind.git"
+  },
+  "author": "David Luu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaestroLuu/Daily-Grind/issues"
+  },
+  "homepage": "https://github.com/MaestroLuu/Daily-Grind#readme",
+  "dependencies": {
+    "concurrently": "^7.1.0",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
