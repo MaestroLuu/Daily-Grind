@@ -18,6 +18,9 @@
     "eject": "react-scripts eject"
   },
   "proxy": "http://localhost:5000",
+  "devDependencies": {
+    "yelp-fusion": "^3.0.0"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
